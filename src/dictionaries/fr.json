@@ -1,0 +1,424 @@
+{
+  "metadata": {
+    "title": "PROTECSYS - Système d'Alarme & Vidéosurveillance en Suisse",
+    "description": "Installation professionnelle de systèmes d'alarme et caméras de vidéosurveillance en Suisse. Garantie 5 ans, sans abonnement. Genève, Lausanne, Zurich, Montreux."
+  },
+  "nav": {
+    "home": "Accueil",
+    "alarm": "Systèmes d'Alarme",
+    "surveillance": "Vidéosurveillance",
+    "services": "Services",
+    "references": "Références",
+    "contact": "Contact",
+    "quote": "Devis Gratuit",
+    "callNow": "Appelez-nous",
+    "language": "EN"
+  },
+  "hero": {
+    "badge": "Plus de 10 ans d'expertise en Suisse",
+    "title": "Protégez ce qui",
+    "titleHighlight": "compte le plus",
+    "subtitle": "Solutions professionnelles d'alarme et de vidéosurveillance sur mesure pour votre maison et votre entreprise. Installation experte, garantie 5 ans, sans abonnement.",
+    "cta1": "Obtenir un Devis Gratuit",
+    "cta2": "Appelez-nous",
+    "stats": {
+      "experience": "Années d'expérience",
+      "clients": "Clients Satisfaits",
+      "warranty": "Ans de Garantie",
+      "support": "Support 24/7"
+    }
+  },
+  "trust": {
+    "title": "Ils nous font confiance",
+    "ndaa": "Certifié NDAA",
+    "noContract": "Sans Contrat",
+    "warranty": "Garantie 5 ans",
+    "swiss": "100% Suisse"
+  },
+  "services": {
+    "title": "Nos Solutions de",
+    "titleHighlight": "Sécurité",
+    "subtitle": "Des solutions complètes adaptées à vos besoins spécifiques, installées par nos experts certifiés.",
+    "alarm": {
+      "title": "Systèmes d'Alarme",
+      "description": "Protection complète contre les intrusions avec détection de mouvement, capteurs de portes et fenêtres, et alertes instantanées sur smartphone.",
+      "features": ["Détection de mouvement", "Alertes instantanées", "Contrôle smartphone", "Sans abonnement"]
+    },
+    "surveillance": {
+      "title": "Vidéosurveillance",
+      "description": "Caméras haute définition 4K avec vision nocturne, enregistrement continu et accès à distance depuis n'importe quel appareil.",
+      "features": ["Résolution 4K Ultra HD", "Vision nocturne", "Accès à distance", "Certifié NDAA"]
+    },
+    "maintenance": {
+      "title": "Maintenance & Support",
+      "description": "Service de maintenance préventive et corrective pour garantir le fonctionnement optimal de vos installations de sécurité.",
+      "features": ["Support réactif", "Maintenance préventive", "Mises à jour système", "Remplacement matériel"]
+    },
+    "learnMore": "En savoir plus"
+  },
+  "stats": {
+    "experience": "10+",
+    "experienceLabel": "Années d'expérience",
+    "clients": "500+",
+    "clientsLabel": "Clients protégés",
+    "warranty": "5",
+    "warrantyLabel": "Ans de garantie max",
+    "cities": "4",
+    "citiesLabel": "Villes couvertes"
+  },
+  "valueProps": {
+    "title": "Pourquoi Choisir",
+    "titleHighlight": "PROTECSYS",
+    "subtitle": "Des avantages uniques qui font la différence pour votre sécurité.",
+    "items": [
+      {
+        "title": "Garantie 5 ans",
+        "description": "Tous nos produits bénéficient d'une garantie complète de 5 ans, sans frais supplémentaires."
+      },
+      {
+        "title": "Aucun abonnement",
+        "description": "Pas de frais mensuels ni de contrats contraignants. Vous payez une fois pour une protection durable."
+      },
+      {
+        "title": "Produits certifiés NDAA",
+        "description": "Tous nos équipements respectent les normes NDAA pour une conformité et une sécurité maximales."
+      },
+      {
+        "title": "Couverture nationale",
+        "description": "Nous intervenons à Genève, Lausanne, Zurich et Montreux avec une équipe locale dédiée."
+      },
+      {
+        "title": "Installation professionnelle",
+        "description": "Nos techniciens certifiés assurent une installation propre, rapide et optimisée pour vos locaux."
+      },
+      {
+        "title": "Support 24/7",
+        "description": "Notre équipe de support technique est disponible à tout moment pour répondre à vos besoins."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce que disent nos",
+    "titleHighlight": "clients",
+    "items": [
+      {
+        "name": "Jean-Pierre Martin",
+        "role": "Directeur, Cabinet Médical",
+        "location": "Genève",
+        "text": "PROTECSYS a installé un système complet de vidéosurveillance dans notre cabinet. La qualité du matériel et le professionnalisme de l'équipe sont exceptionnels. Je recommande vivement.",
+        "rating": 5
+      },
+      {
+        "name": "Marie Dubois",
+        "role": "Propriétaire, Villa",
+        "location": "Lausanne",
+        "text": "Après avoir comparé plusieurs prestataires, j'ai choisi PROTECSYS pour leur transparence et l'absence de frais d'abonnement. Le système d'alarme fonctionne parfaitement depuis 3 ans.",
+        "rating": 5
+      },
+      {
+        "name": "Thomas Schneider",
+        "role": "Gérant, Restaurant",
+        "location": "Montreux",
+        "text": "Service impeccable du début à la fin. L'installation a été rapide et propre, et le support technique est toujours réactif quand j'en ai besoin.",
+        "rating": 5
+      }
+    ]
+  },
+  "coverage": {
+    "title": "Couverture dans",
+    "titleHighlight": "toute la Suisse",
+    "subtitle": "Nous intervenons dans toute la Suisse — Suisse romande, alémanique et italienne. Nos équipes se déplacent partout.",
+    "allSwitzerlandTitle": "Couverture nationale",
+    "allSwitzerlandBadge": "Toute la Suisse couverte",
+    "allSwitzerlandDesc": "Nous intervenons dans toute la Suisse — Suisse romande, alémanique et italienne. Nos équipes se déplacent partout pour vous garantir une installation professionnelle.",
+    "cities": [
+      { "name": "Genève", "description": "Canton de Genève et environs" },
+      { "name": "Lausanne", "description": "Canton de Vaud et Riviera" },
+      { "name": "Zurich", "description": "Canton de Zurich et agglomération" },
+      { "name": "Montreux", "description": "Riviera vaudoise et Chablais" }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à sécuriser votre propriété ?",
+    "subtitle": "Obtenez un devis personnalisé gratuit en moins de 24 heures. Sans engagement, sans abonnement.",
+    "button": "Demander un Devis Gratuit",
+    "call": "Ou appelez-nous au",
+    "phone": "+41 78 708 38 77"
+  },
+  "footer": {
+    "description": "Solutions professionnelles d'alarme et de vidéosurveillance en Suisse. Plus de 10 ans d'expertise au service de votre sécurité.",
+    "services": "Services",
+    "company": "Entreprise",
+    "coverage": "Couverture",
+    "contact": "Contact",
+    "about": "À propos",
+    "legal": "Mentions légales",
+    "terms": "Conditions Générales",
+    "privacy": "Politique de confidentialité",
+    "allRights": "Tous droits réservés",
+    "madeIn": "Conçu en Suisse 🇨🇭",
+    "allSwitzerland": "Toute la Suisse 🇨🇭",
+    "coverageDescription": "Nous intervenons dans toute la Suisse, de Genève à Zurich, en passant par Lausanne, Berne, Bâle et toutes les régions du pays."
+  },
+  "alarm": {
+    "hero": {
+      "badge": "Protection Complète",
+      "title": "Systèmes d'Alarme",
+      "titleHighlight": "Intelligents",
+      "subtitle": "Protection avancée contre les intrusions avec des systèmes d'alarme de dernière génération, installés et configurés par nos experts."
+    },
+    "types": {
+      "title": "Nos Solutions d'Alarme",
+      "home": {
+        "title": "Alarme Maison",
+        "description": "Système d'alarme résidentiel complet avec détecteurs de mouvement, capteurs d'ouverture et sirène intégrée. Contrôle total depuis votre smartphone."
+      },
+      "business": {
+        "title": "Alarme Entreprise",
+        "description": "Solutions professionnelles pour bureaux, commerces et entrepôts. Intégration avec systèmes de contrôle d'accès et vidéosurveillance."
+      },
+      "smart": {
+        "title": "Sécurité Armée pour Événements",
+        "description": "Service de sécurité armée professionnel pour événements, soirées privées et manifestations. Protection rapprochée et surveillance événementielle sur mesure."
+      }
+    },
+    "benefits": {
+      "title": "Avantages de nos systèmes",
+      "items": [
+        "Détection de mouvement haute précision",
+        "Alertes instantanées sur smartphone",
+        "Sirène puissante intégrée (110 dB)",
+        "Batterie de secours en cas de coupure",
+        "Installation professionnelle garantie",
+        "Aucun frais d'abonnement mensuel"
+      ]
+    },
+    "process": {
+      "title": "Processus d'Installation",
+      "steps": [
+        { "title": "Consultation & Audit", "description": "Consultation gratuite et audit de sécurité complet de vos locaux par un expert." },
+        { "title": "Conception sur mesure", "description": "Design de solution personnalisée adaptée à votre propriété et vos exigences." },
+        { "title": "Installation certifiée", "description": "Installation par nos techniciens certifiés, rapide, propre et professionnelle." },
+        { "title": "Configuration & Cloud", "description": "Configuration complète et connectivité cloud pour l'accès à distance." },
+        { "title": "Formation & Prise en main", "description": "Formation complète et accompagnement pour la prise en main de votre système." },
+        { "title": "Support & Garantie 4 ans", "description": "Support continu, maintenance proactive et garantie complète de 4 ans incluse." }
+      ]
+    }
+  },
+  "surveillance": {
+    "hero": {
+      "badge": "Vidéosurveillance 4K",
+      "title": "Caméras de",
+      "titleHighlight": "Surveillance",
+      "subtitle": "Systèmes de vidéosurveillance haute définition avec vision nocturne, détection intelligente et accès à distance 24h/24."
+    },
+    "systems": {
+      "title": "Nos Systèmes de Caméras",
+      "indoor": {
+        "title": "Caméras Intérieures",
+        "description": "Surveillance discrète et efficace de vos espaces intérieurs avec détection de mouvement et communication bidirectionnelle."
+      },
+      "outdoor": {
+        "title": "Caméras Extérieures",
+        "description": "Résistantes aux intempéries IP67, nos caméras extérieures offrent une protection périmétrique 24h/24 avec vision nocturne jusqu'à 30m."
+      },
+      "ptz": {
+        "title": "Caméras PTZ",
+        "description": "Caméras motorisées pan-tilt-zoom pour une couverture étendue et un suivi automatique des mouvements suspects."
+      },
+      "fourk": {
+        "title": "Caméras 4K Ultra HD",
+        "description": "Résolution exceptionnelle pour une identification précise. Idéal pour les zones à forte fréquentation et les accès critiques."
+      }
+    },
+    "ndaa": {
+      "title": "Conformité NDAA",
+      "description": "Tous nos produits de vidéosurveillance sont certifiés conformes au National Defense Authorization Act (NDAA), garantissant que vos équipements de sécurité respectent les plus hauts standards de conformité internationale.",
+      "benefits": [
+        "Produits fabriqués par des marques approuvées",
+        "Aucun composant provenant de fabricants interdits",
+        "Conformité totale aux réglementations internationales",
+        "Sécurité des données et protection de la vie privée"
+      ]
+    },
+    "useCases": {
+      "title": "Cas d'Utilisation",
+      "items": [
+        { "title": "Résidentiel", "description": "Protection de votre domicile et de votre famille avec surveillance intérieure et extérieure." },
+        { "title": "Commercial", "description": "Sécurisation de vos locaux commerciaux, bureaux et espaces de vente." },
+        { "title": "Industriel", "description": "Surveillance de sites industriels, entrepôts et zones de production." },
+        { "title": "Cliniques & Pharmacies", "description": "Sécurisation des établissements de santé, pharmacies et cabinets médicaux avec une surveillance conforme." },
+        { "title": "Consulats & Ambassades", "description": "Vidéosurveillance haute sécurité pour missions diplomatiques, consulats et organisations internationales." }
+      ]
+    }
+  },
+  "maintenancePage": {
+    "hero": {
+      "badge": "Support & Maintenance",
+      "title": "Maintenance",
+      "titleHighlight": "Professionnelle",
+      "subtitle": "Service de maintenance préventive et corrective pour garantir la fiabilité et les performances optimales de vos installations."
+    },
+    "plans": {
+      "title": "Nos Forfaits de Maintenance",
+      "basic": {
+        "title": "FORFAIT ALARME",
+        "subtitle": "Pour les clients équipés d'un système d'alarme PROTECSYS.",
+        "description": "La tranquillité d'esprit commence par un système d'alarme qui fonctionne parfaitement en permanence. Notre plan de maintenance alarme assure une protection continue et fiable toute l'année.",
+        "price": "Sur devis",
+        "features": ["Inspection annuelle du système d'alarme", "Test des capteurs et détecteurs", "Vérification des batteries", "Rapport de diagnostic", "Support téléphonique", "Mises à jour firmware"],
+        "recommended": false
+      },
+      "standard": {
+        "title": "FORFAIT VIDÉOSURVEILLANCE",
+        "subtitle": "Pour les clients équipés d'un système de caméras PROTECSYS.",
+        "description": "Vos caméras capturent tout — mais seulement si elles sont correctement entretenues. Notre plan de maintenance vidéosurveillance garantit des images nettes, un enregistrement continu et une couverture maximale.",
+        "price": "Sur devis",
+        "features": ["Inspections semestrielles des caméras", "Nettoyage & calibration des objectifs", "Diagnostic du système d'enregistrement", "Vérification stockage & sauvegarde", "Mises à jour firmware", "Support prioritaire", "Rapport détaillé"],
+        "recommended": true
+      },
+      "premium": {
+        "title": "FORFAIT COMPLET",
+        "subtitle": "Alarme + Vidéosurveillance",
+        "description": "Protection totale pour les clients équipés des deux systèmes. Un forfait, une équipe, une facture. Notre forfait complet couvre toute votre installation de sécurité.",
+        "price": "Sur devis",
+        "features": ["Inspections trimestrielles (alarme + caméras)", "Diagnostic avancé de tous les systèmes", "Nettoyage & calibration", "Mises à jour firmware", "Remplacement matériel inclus", "Support 24/7 dédié", "Rapport mensuel", "Intervention sous 4h"],
+        "recommended": false
+      }
+    },
+    "support": {
+      "title": "Réparation & Support",
+      "description": "Notre équipe technique intervient rapidement pour diagnostiquer et résoudre tout problème avec vos installations de sécurité.",
+      "items": [
+        { "title": "Diagnostic rapide", "description": "Identification précise des pannes et problèmes techniques." },
+        { "title": "Réparation sur site", "description": "Intervention rapide de nos techniciens qualifiés directement chez vous." },
+        { "title": "Pièces de rechange", "description": "Stock de pièces détachées pour une réparation immédiate." },
+        { "title": "Mise à niveau", "description": "Modernisation de vos équipements pour rester à la pointe." }
+      ]
+    }
+  },
+  "referencesPage": {
+    "hero": {
+      "badge": "Nos Réalisations",
+      "title": "Références",
+      "titleHighlight": "Clients",
+      "subtitle": "Découvrez les projets que nous avons réalisés pour nos clients à travers la Suisse."
+    },
+    "categories": ["Résidentiel", "Commercial", "Industriel", "Médical", "Hôtellerie", "Restauration"],
+    "cases": [
+      {
+        "title": "Villa de luxe - Genève",
+        "category": "Résidentiel",
+        "description": "Installation complète de 12 caméras 4K et système d'alarme périmétrique pour une villa de 500m².",
+        "results": "Couverture à 360° avec zéro angle mort"
+      },
+      {
+        "title": "Cabinet Dentaire - Lausanne",
+        "category": "Médical",
+        "description": "Système de vidéosurveillance et contrôle d'accès pour un cabinet médical de 8 salles.",
+        "results": "Sécurisation complète des zones sensibles"
+      },
+      {
+        "title": "Hôtel 4 étoiles - Montreux",
+        "category": "Hôtellerie",
+        "description": "Déploiement de 45 caméras avec système de gestion centralisé et alarme anti-intrusion.",
+        "results": "Surveillance 24/7 de l'ensemble de l'établissement"
+      },
+      {
+        "title": "Entrepôt logistique - Zurich",
+        "category": "Industriel",
+        "description": "Système de surveillance périmétrique avec caméras PTZ et détection thermique.",
+        "results": "Réduction de 95% des incidents de sécurité"
+      },
+      {
+        "title": "Boutique de luxe - Genève",
+        "category": "Commercial",
+        "description": "Installation discrète de caméras haute résolution et alarme connectée pour une bijouterie.",
+        "results": "Protection optimale des biens de valeur"
+      },
+      {
+        "title": "Restaurant gastronomique - Lausanne",
+        "category": "Restauration",
+        "description": "Vidéosurveillance des accès et de la zone de caisse avec enregistrement cloud.",
+        "results": "Tranquillité d'esprit pour le propriétaire"
+      }
+    ]
+  },
+  "contactPage": {
+    "hero": {
+      "badge": "Contactez-nous",
+      "title": "Parlons de votre",
+      "titleHighlight": "Sécurité",
+      "subtitle": "Notre équipe est à votre disposition pour répondre à toutes vos questions et vous proposer une solution adaptée."
+    },
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "success": "Message envoyé avec succès !",
+      "subjects": ["Information générale", "Demande de devis", "Support technique", "Maintenance", "Partenariat"]
+    },
+    "info": {
+      "phone": "+41 78 708 38 77",
+      "email": "info@protecsys.ch",
+      "address": "Suisse",
+      "hours": "Lun - Ven: 8h00 - 18h00",
+      "emergency": "Urgences: 24/7"
+    }
+  },
+  "quotePage": {
+    "hero": {
+      "badge": "Devis en 2 minutes",
+      "title": "Demandez votre",
+      "titleHighlight": "Devis Gratuit",
+      "subtitle": "Remplissez le formulaire ci-dessous et recevez une proposition personnalisée sous 24 heures. Sans engagement."
+    },
+    "steps": {
+      "step1": "Type de projet",
+      "step2": "Détails",
+      "step3": "Vos coordonnées"
+    },
+    "form": {
+      "propertyType": "Type de propriété",
+      "propertyTypes": ["Maison / Villa", "Appartement", "Bureau / Commerce", "Entrepôt / Industrie", "Copropriété", "Autre"],
+      "serviceType": "Service souhaité",
+      "serviceTypes": ["Système d'alarme", "Vidéosurveillance", "Alarme + Vidéosurveillance", "Maintenance", "Mise à niveau"],
+      "location": "Localisation",
+      "locations": ["Genève", "Lausanne", "Zurich", "Montreux", "Autre"],
+      "surface": "Surface approximative (m²)",
+      "rooms": "Nombre de pièces/zones",
+      "details": "Détails supplémentaires",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "preferred": "Mode de contact préféré",
+      "preferredOptions": ["Téléphone", "E-mail", "WhatsApp"],
+      "submit": "Envoyer ma demande",
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "trust": {
+      "items": [
+        "Réponse sous 24h",
+        "Devis 100% gratuit",
+        "Sans engagement",
+        "Visite gratuite sur site"
+      ]
+    },
+    "success": {
+      "title": "Demande envoyée !",
+      "message": "Merci pour votre confiance. Notre équipe vous contactera dans les 24 heures avec une proposition personnalisée.",
+      "back": "Retour à l'accueil"
+    }
+  },
+  "common": {
+    "getQuote": "Obtenir un Devis",
+    "learnMore": "En savoir plus",
+    "callUs": "Appelez-nous",
+    "phone": "+41 78 708 38 77",
+    "backToHome": "Retour à l'accueil"
+  }
+}
