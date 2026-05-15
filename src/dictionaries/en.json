@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "PROTECSYS - Alarm Systems & Video Surveillance in Switzerland",
-    "description": "Professional installation of alarm systems and video surveillance cameras in Switzerland. 5-year warranty, no subscription fees. Geneva, Lausanne, Zurich, Montreux."
+    "description": "Professional installation of alarm systems and video surveillance cameras in Switzerland. 4-year warranty, no subscription fees. Geneva, Lausanne, Zurich, Montreux."
   },
   "nav": {
     "home": "Home",
@@ -18,7 +18,7 @@
     "badge": "Over 10 years of expertise in Switzerland",
     "title": "Protect what",
     "titleHighlight": "matters most",
-    "subtitle": "Professional alarm and video surveillance solutions tailored for your home and business. Expert installation, 5-year warranty, no subscription fees.",
+    "subtitle": "Professional alarm and video surveillance solutions tailored for your home and business. Expert installation, 4-year warranty, no subscription fees.",
     "cta1": "Get a Free Quote",
     "cta2": "Call Us",
     "stats": {
@@ -32,7 +32,7 @@
     "title": "Trusted by hundreds",
     "ndaa": "NDAA Certified",
     "noContract": "No Contracts",
-    "warranty": "5-Year Warranty",
+    "warranty": "4-Year Warranty",
     "swiss": "100% Swiss"
   },
   "services": {
@@ -61,7 +61,7 @@
     "experienceLabel": "Years of experience",
     "clients": "500+",
     "clientsLabel": "Protected clients",
-    "warranty": "5",
+    "warranty": "4",
     "warrantyLabel": "Year max warranty",
     "cities": "4",
     "citiesLabel": "Cities covered"
@@ -72,8 +72,8 @@
     "subtitle": "Unique advantages that make the difference for your security.",
     "items": [
       {
-        "title": "5-Year Warranty",
-        "description": "All our products come with a comprehensive 5-year warranty, at no extra cost."
+        "title": "4-Year Warranty",
+        "description": "All our products come with a comprehensive 4-year warranty, at no extra cost."
       },
       {
         "title": "No Subscription Fees",

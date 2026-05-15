@@ -11,7 +11,7 @@ export default function StatsCounter({ dict }: StatsCounterProps) {
   const stats = [
     { end: 10, suffix: '+', label: dict.stats.experienceLabel, color: 'text-brand-600' },
     { end: 500, suffix: '+', label: dict.stats.clientsLabel, color: 'text-trust-600' },
-    { end: 5, suffix: '', label: dict.stats.warrantyLabel, color: 'text-brand-500' },
+    { end: 4, suffix: '', label: dict.stats.warrantyLabel, color: 'text-brand-500' },
     { end: 4, suffix: '', label: dict.stats.citiesLabel, color: 'text-gray-800' },
   ];
 

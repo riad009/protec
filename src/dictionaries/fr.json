@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "PROTECSYS - Système d'Alarme & Vidéosurveillance en Suisse",
-    "description": "Installation professionnelle de systèmes d'alarme et caméras de vidéosurveillance en Suisse. Garantie 5 ans, sans abonnement. Genève, Lausanne, Zurich, Montreux."
+    "description": "Installation professionnelle de systèmes d'alarme et caméras de vidéosurveillance en Suisse. Garantie 4 ans, sans abonnement. Genève, Lausanne, Zurich, Montreux."
   },
   "nav": {
     "home": "Accueil",
@@ -18,7 +18,7 @@
     "badge": "Plus de 10 ans d'expertise en Suisse",
     "title": "Protégez ce qui",
     "titleHighlight": "compte le plus",
-    "subtitle": "Solutions professionnelles d'alarme et de vidéosurveillance sur mesure pour votre maison et votre entreprise. Installation experte, garantie 5 ans, sans abonnement.",
+    "subtitle": "Solutions professionnelles d'alarme et de vidéosurveillance sur mesure pour votre maison et votre entreprise. Installation experte, garantie 4 ans, sans abonnement.",
     "cta1": "Obtenir un Devis Gratuit",
     "cta2": "Appelez-nous",
     "stats": {
@@ -32,7 +32,7 @@
     "title": "Ils nous font confiance",
     "ndaa": "Certifié NDAA",
     "noContract": "Sans Contrat",
-    "warranty": "Garantie 5 ans",
+    "warranty": "Garantie 4 ans",
     "swiss": "100% Suisse"
   },
   "services": {
@@ -61,7 +61,7 @@
     "experienceLabel": "Années d'expérience",
     "clients": "500+",
     "clientsLabel": "Clients protégés",
-    "warranty": "5",
+    "warranty": "4",
     "warrantyLabel": "Ans de garantie max",
     "cities": "4",
     "citiesLabel": "Villes couvertes"
@@ -72,8 +72,8 @@
     "subtitle": "Des avantages uniques qui font la différence pour votre sécurité.",
     "items": [
       {
-        "title": "Garantie 5 ans",
-        "description": "Tous nos produits bénéficient d'une garantie complète de 5 ans, sans frais supplémentaires."
+        "title": "Garantie 4 ans",
+        "description": "Tous nos produits bénéficient d'une garantie complète de 4 ans, sans frais supplémentaires."
       },
       {
         "title": "Aucun abonnement",

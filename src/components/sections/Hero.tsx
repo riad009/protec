@@ -79,7 +79,7 @@ export default function HeroSection({ dict, locale }: HeroProps) {
               {[
                 { value: '10+', label: dict.hero.stats.experience },
                 { value: '500+', label: dict.hero.stats.clients },
-                { value: '5', label: dict.hero.stats.warranty },
+                { value: '4', label: dict.hero.stats.warranty },
                 { value: '24/7', label: dict.hero.stats.support },
               ].map((stat, i) => (
                 <div key={i} className="text-center sm:text-left">

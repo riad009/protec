@@ -55,7 +55,7 @@ const recommendationLetters = [
       en: 'Next-Generation Alarm System and 2K Digital Video Protection Installation.',
     },
     countryCode: 'kw',
-    downloadUrl: '/pdf/kuwait embassy.pdf',
+    downloadUrl: '/pdf/KUWAIT EMBASSY SWITZERLAND.png',
   },
   {
     organization: 'Mission Permanente du Mali',
@@ -149,7 +149,7 @@ export default function ReferencesPageClient({ dict, locale }: ReferencesPageCli
                     <div className="w-14 h-14 rounded-2xl overflow-hidden shadow-lg flex-shrink-0 border border-gray-200">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src={`https://flagcdn.com/w80/${letter.countryCode}.png`}
+                        src={(letter as any).imageUrl ?? `https://flagcdn.com/w80/${letter.countryCode}.png`}
                         alt={letter.organization}
                         className="w-full h-full object-cover"
                       />

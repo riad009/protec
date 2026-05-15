@@ -23,6 +23,8 @@ const contactMethodIcons = [Phone, Mail, MessageCircle];
 export default function QuotePageClient({ dict, locale }: QuotePageClientProps) {
   const [step, setStep] = useState(1);
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
   const [formData, setFormData] = useState({
     propertyType: '', serviceType: '', location: '', surface: '',
     rooms: '', details: '', name: '', email: '', phone: '', preferred: '',
@@ -36,7 +38,39 @@ export default function QuotePageClient({ dict, locale }: QuotePageClientProps) 
   };
   const nextStep = () => setStep((s) => Math.min(s + 1, 3));
   const prevStep = () => setStep((s) => Math.max(s - 1, 1));
-  const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); setSubmitted(true); };
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    try {
+      const message = [
+        `Type de bien: ${formData.propertyType || 'N/A'}`,
+        `Service: ${formData.serviceType || 'N/A'}`,
+        `Localisation: ${formData.location || 'N/A'}`,
+        `Surface: ${formData.surface || 'N/A'}`,
+        `Pièces: ${formData.rooms || 'N/A'}`,
+        `Détails: ${formData.details || 'N/A'}`,
+        `Méthode de contact préférée: ${formData.preferred || 'N/A'}`,
+      ].join('\n');
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          subject: `Demande de devis – ${formData.serviceType || 'N/A'}`,
+          message,
+        }),
+      });
+      if (!res.ok) throw new Error('Failed to send');
+      setSubmitted(true);
+    } catch {
+      setError(locale === 'fr' ? 'Erreur lors de l\'envoi. Veuillez réessayer.' : 'Failed to send. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
   const totalSteps = 3;
 
   const inputClass = "w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-gray-900 placeholder-gray-400 focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500/30 transition-colors duration-200";
@@ -224,9 +258,14 @@ export default function QuotePageClient({ dict, locale }: QuotePageClientProps) 
                       {step < totalSteps ? (
                         <Button type="button" onClick={nextStep} icon={<ChevronRight className="w-4 h-4" />}>{dict.quotePage.form.next}</Button>
                       ) : (
-                        <Button type="submit" variant="cta" size="lg" icon={<FileText className="w-5 h-5" />}>{dict.quotePage.form.submit}</Button>
+                        <Button type="submit" variant="cta" size="lg" icon={<FileText className="w-5 h-5" />} disabled={loading}>
+                          {loading ? (locale === 'fr' ? 'Envoi...' : 'Sending...') : dict.quotePage.form.submit}
+                        </Button>
                       )}
                     </div>
+                    {error && (
+                      <p className="text-sm text-red-600 text-center mt-2">{error}</p>
+                    )}
                   </form>
                 </div>
               )}

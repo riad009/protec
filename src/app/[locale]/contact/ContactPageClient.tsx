@@ -15,8 +15,29 @@ interface ContactPageClientProps {
 
 export default function ContactPageClient({ dict, locale }: ContactPageClientProps) {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', subject: '', message: '' });
-  const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); setSubmitted(true); };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error('Failed to send');
+      setSubmitted(true);
+    } catch {
+      setError(locale === 'fr' ? 'Erreur lors de l\'envoi. Veuillez réessayer.' : 'Failed to send. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -98,8 +119,9 @@ export default function ContactPageClient({ dict, locale }: ContactPageClientPro
                         className={`${inputClass} resize-none`}
                         placeholder={locale === 'fr' ? 'Décrivez votre besoin...' : 'Describe your need...'} />
                     </div>
-                    <Button type="submit" size="lg" className="w-full justify-center" icon={<Send className="w-5 h-5" />}>
-                      {dict.contactPage.form.submit}
+                    {error && <p className="text-red-500 text-sm">{error}</p>}
+                    <Button type="submit" size="lg" className="w-full justify-center" icon={<Send className="w-5 h-5" />} disabled={loading}>
+                      {loading ? (locale === 'fr' ? 'Envoi...' : 'Sending...') : dict.contactPage.form.submit}
                     </Button>
                   </form>
                 )}
